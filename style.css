@@ -28,7 +28,7 @@ body {
     /* color: rgb(242, 242, 243); */
     margin-left: 1.5em;
     background: linear-gradient(to right, rgb(253, 140, 3), rgb(255, 176, 57));
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -67,7 +67,7 @@ body {
 .navlink {
     text-decoration: none;
     background: linear-gradient(to right, rgb(253, 140, 3), rgb(255, 176, 57));
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
